@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,12 +6,37 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      margin: 20px;
+      margin: 0;
+      padding: 0;
       background-color: #f4f4f4;
       color: #333;
     }
-    h1 {
-      color: #e67e00;
+    header {
+      background-color: #e67e00;
+      padding: 20px;
+      color: white;
+      text-align: center;
+    }
+    nav {
+      background-color: #333;
+      overflow: hidden;
+    }
+    nav a {
+      float: left;
+      display: block;
+      color: #fff;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background-color: #575757;
+    }
+    .container {
+      padding: 20px;
+    }
+    .section {
+      margin-bottom: 30px;
     }
     .product {
       border: 1px solid #ddd;
@@ -38,32 +62,16 @@
   </style>
 </head>
 <body>
-  <h1>Welcome to Somken Spares</h1>
-  <p>We sell LCDs, batteries, motherboards, speakers, and offer phone repairs.</p>
-  <p>📍 Locations: Meru Town & Nkubu</p>
-  <p>📞 Contact: 0742214398</p>
-  <p>📧 Email: antonymawira01@gmail.com</p>
-
-  <hr>
-
-  <h2>Available LCDs</h2>
-
-  <div class="product">
+  <header>
+    <h1>Somken Spares</h1>
+    <p>Phone Parts, Repairs, Software & Account Recovery</p>
+  </header>  <nav>
+    <a href="#lcds">LCDs</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>  <div class="container">
+    <div class="section" id="lcds">
+      <h2>Available LCDs</h2><div class="product">
     <h3>Samsung Galaxy A10 LCD</h3>
-    <img src="https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-a10-1.jpg" alt="Samsung Galaxy A10 LCD">
-    <a class="whatsapp-btn" href="https://wa.me/254742214398?text=I%20would%20like%20to%20order%20the%20Samsung%20A10%20LCD" target="_blank">Order via WhatsApp</a>
-  </div>
+    <img src="https://fdn2.gsmarena.com/vv/pics/samsung
 
-  <div class="product">
-    <h3>Infinix Hot 10 LCD</h3>
-    <img src="https://fdn2.gsmarena.com/vv/pics/infinix/infinix-hot10-1.jpg" alt="Infinix Hot 10 LCD">
-    <a class="whatsapp-btn" href="https://wa.me/254742214398?text=I%20would%20like%20to%20order%20the%20Infinix%20Hot%2010%20LCD" target="_blank">Order via WhatsApp</a>
-  </div>
-
-  <div class="product">
-    <h3>Itel A14 LCD</h3>
-    <img src="https://fdn2.gsmarena.com/vv/pics/itel/itel-a14.jpg" alt="Itel A14 LCD">
-    <a class="whatsapp-btn" href="https://wa.me/254742214398?text=I%20would%20like%20to%20order%20the%20Itel%20A14%20LCD" target="_blank">Order via WhatsApp</a>
-  </div>
-</body>
-</html>
